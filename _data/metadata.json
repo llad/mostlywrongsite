@@ -1,7 +1,7 @@
 {
-  "title": "Your Blog Name",
+  "title": "Mostly Wrong Work",
   "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Someday this will work.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
