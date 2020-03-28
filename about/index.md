@@ -1,10 +1,12 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Aboat
 templateClass: tmpl-post
 eleventyNavigation:
   key: About Me
   order: 3
 ---
 
-I am a person that writes stuff.
+github: [llad](https://github.com/llad)
+observable: [llad](https://observablehq.com/@llad)
+twitter: [@m4rkwoodall](https://twitter.com/m4rkwoodall) (not really)
