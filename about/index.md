@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: Aboat
+title: Aboat Meh
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Aboat Meh
   order: 3
 ---
 
