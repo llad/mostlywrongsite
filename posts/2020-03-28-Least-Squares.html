@@ -1,0 +1,34 @@
+---
+title: Least Squares Observable Notebook
+description: Observable notebook on Least Squares Regression
+date: 2020-03-28
+tags:
+  - Development
+  - Observable
+layout: layouts/post.njk
+---
+
+<p>Below is an Observable notebook I created to explore Least Squared Regression. It is probably best consumed over at Observable but it is possible to embed notebooks in a site so I wanted to try that too.</p>
+
+<p>
+<a href="https://observablehq.com/@llad/least-squares-exploration">View this notebook on Observable</a>
+</p>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@3/dist/inspector.css">
+
+<div id="notebook"></div>
+
+<script type="module">
+
+// Load the Observable runtime and inspector.
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+
+// Your notebook, compiled as an ES module.
+//import notebook from "https://api.observablehq.com/@jashkenas/my-neat-notebook.js?v=3";
+import notebook from "https://api.observablehq.com/@llad/least-squares-exploration.js?v=3";
+
+// Load the notebook, observing its cells with a default Inspector
+// that simply renders the value of each cell into the provided DOM node.
+new Runtime().module(notebook, Inspector.into(document.querySelector("#notebook")));
+
+</script>
