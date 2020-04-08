@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: Aboat Meh
+title: '?'
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Aboat Meh
-  order: 3
+  key: '?'
+  order: 4
 ---
 
 github: [llad](https://github.com/llad)
