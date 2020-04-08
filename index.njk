@@ -5,10 +5,16 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest</h1>
+<h1>writing</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
 <p>More can be found in <a href="{{ '/posts/' | url }}">writing</a>.</p>
+
+<h1>images</h1>
+
+{% for image in images | head(-4) | reverse %}<a href="/img/images/{{ image.name }}.jpeg"><img src="/img/images/thumb/{{ image.name }}-sm.jpeg"></a>{% endfor %}
+
+<p>More can be found in <a href="{{ '/images/' | url }}">images</a>.</p>
