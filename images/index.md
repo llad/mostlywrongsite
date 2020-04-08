@@ -7,8 +7,6 @@ eleventyNavigation:
   order: 3
 ---
 
-{% for image in images reversed %}
-[![image {{ image.name }}](/img/images/thumb/{{ image.name }}-sm.jpeg)](/img/images/{{ image.name }}.jpeg)
-{% endfor %}
+{% for image in images reversed %}[![image {{ image.name }}](/img/images/thumb/{{ image.name }}-sm.jpeg)](/img/images/{{ image.name }}.jpeg){% endfor %}
 
 
