@@ -1,37 +1,25 @@
-# eleventy-base-blog
+# mostlywrong.work
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This is the repository for the site https://mostlywrong.work. It is built using [Eleventy](https://github.com/11ty/eleventy) and started as a fork of the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+Here is a quick write-up of the site setup: http://mostlywrong.work/posts/2020-03-21-website-setup/
 
-## Demos
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-
-## Deploy this to your own site
-
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
-
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on ZEIT Now](https://zeit.co/new/project?template=11ty/eleventy-base-blog)
-
-## Getting Started
+## Setup
 
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+git clone https://github.com/llad/mostlywrongsite.git
 ```
-
 
 ### 2. Navigate to the directory
 
 ```
-cd my-blog-name
+cd mostlywrongsite
 ```
 
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
+Configure site options in  `.eleventy.js`.
 
 ### 3. Install dependencies
 
@@ -39,7 +27,7 @@ Specifically have a look at `.eleventy.js` to see if you want to configure any E
 npm install
 ```
 
-### 4. Edit _data/metadata.json
+### 4. Review _data/metadata.json
 
 ### 5. Run Eleventy
 
@@ -64,7 +52,6 @@ DEBUG=* npx eleventy
 
 ### Implementation Notes
 
-* `about/index.md` shows how to add a content page.
 * `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
 * Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
 * Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
