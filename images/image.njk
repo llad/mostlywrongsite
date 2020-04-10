@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+pagination:
+  data: images
+  size: 1
+  alias: image
+permalink: "images/{{ image.name | slug }}/index.html"
+---
+
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}
+
+<br>
+<br>
+
+{%- for item in pagination.items %}
+<img src="/img/images/{{ item.name }}.jpeg">
+{% endfor -%}
+
+ 
