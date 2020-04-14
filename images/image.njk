@@ -7,8 +7,8 @@ pagination:
 permalink: "images/{{ image.name | slug }}/index.html"
 ---
 
-{% if pagination.href.next %}<a href="{{ pagination.href.next }}">next</a>{% else %}{% endif %}
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">previous</a>{% else %}{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">next</a>{% else %}next{% endif %}
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">previous</a>{% else %}previous{% endif %}
 
 <br>
 <br>
