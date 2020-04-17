@@ -149,9 +149,13 @@ pre {
   list-style: none;
   padding: 0;
 }
+
+/* removed: gets rid of the numbering I don't like
+
 .postlist-item {
   counter-increment: start-from -1;
 }
+
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
@@ -159,6 +163,8 @@ pre {
   line-height: 100%;
   text-align: right;
 }
+*/
+
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */

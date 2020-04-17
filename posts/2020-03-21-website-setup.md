@@ -3,8 +3,7 @@ title: Website Setup
 description: How I setup this website.
 date: 2020-03-21
 tags:
-  - Development
-layout: layouts/post.njk
+  - development
 ---
 Wanted a website to publish stuff and experiment.
 
