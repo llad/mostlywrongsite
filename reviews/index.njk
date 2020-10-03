@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: reviews
+  order: 2
+override:tags: []
+---
+
+<h1>reviews</h1>
+
+{% set postslist = collections.reviews %}
+{% include "postslist.njk" %}

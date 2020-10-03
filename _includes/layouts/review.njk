@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<h1>{{ title }} - review</h1>
+<h3>Rating: {{ rating }}</h3>
+
+{{ content | safe }}
+
+<p><a href="{{ '/' | url }}">← Home</a></p>

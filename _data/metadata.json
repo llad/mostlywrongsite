@@ -1,12 +1,12 @@
 {
   "title": "Mostly Wrong Work",
-  "url": "https://myurl.com/",
+  "url": "https://mostlywrong.work",
   "description": "Someday this will work.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "almost nothing",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://mostlywrong.work"
   },
   "author": {
     "name": "Mark Woodall",
